@@ -26,3 +26,23 @@ button {
 h1 {
   text-align: center;
 }
+
+/*? ----------------------- Task 3 ----------------------- */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery li {
+  width: calc((100% - 20px * 2) / 3);
+}
